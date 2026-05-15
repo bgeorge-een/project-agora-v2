@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brivo "Silent Authority" design tokens */
+  --color-nav: #002B49;
+  --color-sidebar: #001629;
+  --color-canvas: #fbf9f8;
+  --color-surface-low: #f5f3f2;
+  --color-surface-card: #ffffff;
+  --color-on-surface: #1b1c1b;
+  --color-on-muted: #43474c;
+  --color-violet: #5644D0;
+  --color-ph1-badge: #1E3A5F;
+  --color-ph2-badge: #5644D0;
+  --color-ph3-badge: #D97706;
+  --color-sec-red: #DC2626;
+  --color-comp-green: #16A34A;
+  --color-ops-blue: #2563EB;
+
+  /* Typography */
+  --font-sans: 'Inter', sans-serif;
+
+  /* Radius */
+  --radius: 4px;
+
+  /* Shadows */
+  --shadow-card: 0 12px 32px rgba(0,22,41,0.06);
+}
+
+:root {
+  --background: #fbf9f8;
+  --foreground: #1b1c1b;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Material Symbols utility */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
